@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     --text-body: #969cb3;
 
     --shape: #FFFFFF;
+    --green: #33cc95;
 }
 * {
     margin: 0;
@@ -30,7 +31,7 @@ html{
 }
 
 body {
-    background: var(---background);
+    background: var(--background);
     -webkit-font-smoothing: antialiased;
 }
 
